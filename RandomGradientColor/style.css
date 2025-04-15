@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    /* text-align: center; */
+    background: linear-gradient(to right top,#977DFE,#6878ff);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 40vh; */
+    min-width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px ;
+}
+section .randomBackground{
+        height: 60vh;
+        background: linear-gradient(to right top,#977DFE,#6878ff);
+        margin-bottom: 20px;
+}
+section .randomIndicator{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px  green solid; */
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+section .randomIndicator .directionColor,.randomIndicator .randomColor{
+    /* border: 1px  black solid; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+section .randomIndicator .directionColor .option{
+    margin-top: 20px;
+    /* border: 1px  green solid; */
+    box-shadow: 5px 5px 5px 2px;
+    padding: 5px;
+    height: 10px;
+}
+section .randomIndicator .directionColor .option select{
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+section .randomIndicator .randomColor{
+    display: flex;
+    justify-content: space-between;
+}
+section .containerRandomColor{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+section .containerRandomColor .randomColor1{
+    background: #977DFE;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+section .containerRandomColor .randomColor2{
+    background: #6878ff;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+section .containerRandomColor .randomColor3{
+    background: transparent;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px black dashed;
+}
+section .generateBackgroundCopie{
+    border: 1px  green solid;
+    min-height: 10vh;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+}
+section .randomAction{
+    display: flex;
+    justify-content: space-between;
+} 
+section .randomAction .randomRefresh{
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to right top,#977DFE,#6878ff);
+    cursor: pointer;
+    margin-right: 20px;
+}
+section .randomAction .randomRefresh a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+section .randomAction .randomCopie{
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to right top,#977DFE,#6878ff);
+    cursor: pointer;
+}

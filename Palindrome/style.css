@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    background: hsl(283, 53%, 57%);
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    background-color: white;
+    display: flex;
+    min-width:60%;
+    min-height: 30vh;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(red, green, blue, alpha);
+}
+section .palindromePanel{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+section .palindromePanel #inputPanel{
+    margin-bottom: 5px;
+    outline: none;
+    border: 1px green solid;
+    min-height: 30px;
+    padding: 10px;
+    
+}
+section .palindromePanel .checkerPanel{
+    margin-bottom: 5px;
+    outline: none;
+    border: 1px green solid;
+    min-height: 30px;
+    padding: 10px;
+    background: hsl(283, 53%, 57%);
+}
+section .palindromePanel .checkerPanel:hover{
+
+}
